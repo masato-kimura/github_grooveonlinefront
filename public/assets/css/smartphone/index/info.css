@@ -1,0 +1,31 @@
+@CHARSET "UTF-8";
+.main_div {
+  max-width: 750px;
+  color: #29100F;
+  text-shadow: 1px 1px 25px #bbb;
+  background-color: rgba(250, 231, 170, 0.10);
+}
+.description {
+  padding: 0px;
+  font-size: 30px;
+  text-shadow: 1px 1px 1px #ddd;
+}
+.date {
+  font-style: italic;
+}
+.new {
+  color: #BC3616;
+  font-style: italic;
+  vertical-align: top;
+  display: inline-block;
+}
+.text {
+  line-height: 25px;
+  margin: 30px 0px;
+  font-style: italic;
+}
+.bottom_div {
+  text-align: right;
+  margin-right: 5px;
+  font-size: small;
+}

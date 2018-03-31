@@ -1,0 +1,81 @@
+@CHARSET "UTF-8";
+
+.main_div {
+    min-height: 1000px;
+    text-align: center;
+}
+.introduction { 
+    padding: 20px 0px 30px 0px;
+    font-size: 28px;
+    text-shadow: 1px 2px 5px #aaa;
+    text-align: center;
+}
+.input_table {
+	margin: auto;
+}
+.input_table .title td { 
+	padding: 10px 0px 0px 0px; 
+	color: purple; 
+	text-align: left;
+}
+.input_table .title td .main { 
+	padding: 10px 0px 0px 0px; 
+	color: #234356; 
+	font-weight: bold; 
+}
+.input_table .ans td { 
+	border-bottom: 1px solid lightgray;
+	font-size: 14px;
+	padding: 0px 0px 0px 60px; 
+	text-align: left;
+}
+.input_table .ans td input, select { 
+	font-size:16px; 
+}
+.input_table .ans td input[type=text]{ 
+	width:350px; 
+}
+.input_table .ans td input[type=password]{ 
+	width:350px; 
+}
+.input_table .ans img {
+	border: 1px solid #777;
+	box-shadow: 1px 1px 1px #aaa;
+	margin: 10px 0px;
+	width: 160px;
+}
+.input_table th { 
+	text-align: left; 
+	height: 45px; 
+	vertical-align: top; 
+}
+.input_table th .sub { 
+	font-weight: normal; 
+}
+.input_table td { 
+	word-break: break-all; 
+	padding-right: 30px; 
+}
+.input_table input[type=submit]:active {
+    background: #ccc;
+    padding: 6px 20px 4px;
+}
+.input_table #back_button {
+    width: 160px;
+    height: 52px;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+.global_submit_btn,
+.global_submit_btn:hover {
+  margin-top: 10px;
+  width: 300px;
+}
+.btn,
+.btn:hover {
+  width: 300px;
+  height: 40px;
+}
+
+

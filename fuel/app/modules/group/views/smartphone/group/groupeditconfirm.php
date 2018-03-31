@@ -1,0 +1,57 @@
+<style type="text/css">
+<!--
+.error_disp { color:red; }
+// -->
+</style>
+
+<h3>グループをつくろうの確認</h3>
+
+<table>
+	<tr>
+		<td>グループ名</td>
+		<td>
+			<?php echo $name; ?>
+			<?php echo $group_id; ?>
+		</td>
+	</tr>
+	<tr>
+		<td>カテゴリー</td>
+		<td><?php echo $category; ?></td>
+	</tr>
+	<tr>
+		<td>カテゴリー名</td>
+		<td><?php echo $category_name; ?></td>
+	</tr>
+	<tr>
+		<td>紹介文</td>
+		<td><?php echo $profile_fields; ?></td>
+	</tr>
+	<tr>
+		<td>
+		<?php if (Asset::find_file('tmp/'. Session::get('tmp_group_image_name'), 'img')):?>
+			<?php echo Asset::img('tmp/'. Session::get('tmp_group_image_name')); ?>
+		<?php else: ?>
+			<img src="<?php echo $this->picture_url;?>">
+		<?php endif;?>
+		</td>
+	</tr>
+</table>
+
+
+<?php echo Form::open(array('action' => 'group/groupeditdone/', 'method' => 'post', 'enctype' => 'multipart/form-data')); ?>
+<?php echo Form::input('group_id', $group_id);?>
+<?php echo Form::input('name', $name); ?>
+<?php echo Form::input('category_id', $category_id); ?>
+<?php echo Form::input('category_name', $category_name);?>
+<?php echo Form::input('profile_fields', $profile_fields);?>
+<?php echo Form::submit('submit', '送信');?>
+<?php echo Form::close();?>
+
+<?php echo Form::open(array('action' => 'group/groupedit/'. $group_id. '/', 'method' => 'post', 'enctype' => 'multipart/form-data')); ?>
+<?php echo Form::input('group_id', $group_id); ?>
+<?php echo Form::input('name', $name); ?>
+<?php echo Form::input('category_id', $category_id); ?>
+<?php echo Form::input('category_name', $category_name);?>
+<?php echo Form::input('profile_fields', $profile_fields);?>
+<?php echo Form::submit('submit', '戻る');?>
+<?php echo Form::close();?>

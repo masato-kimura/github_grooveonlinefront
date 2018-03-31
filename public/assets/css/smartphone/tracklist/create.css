@@ -1,0 +1,393 @@
+@CHARSET "UTF-8";
+
+/* public */
+.loading {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: none;
+  text-align: center;
+}
+.clearboth {
+  display: none;
+}
+.description {
+  padding: 0px;
+  margin: 3px 3px 7px 3px;
+  font-size: small;
+  text-align: center;
+  color: #333;
+  display: none;
+}
+#tracklist_make_title {
+  margin: 10px 0px 0px 0px;
+  text-shadow: 1px 1px 3px #ddd;
+  font-size: large;
+  font-weight: bold;
+}
+#to_select_caption {
+  margin: 5px;
+  text-shadow: 1px 1px 1px #cc;
+  font-size: small;
+  color: ccc;
+}
+
+/* artist_search */
+#tracklist_make_artist_search_section {
+
+}
+#tracklist_make_artist_not_exist_disp {
+  display: none;
+  text-align: center;
+}
+#tracklist_make_artist_search_more {
+  display: none;
+  text-align: center;
+  margin-top: 15px;
+}
+#artist_search_button {
+  margin-bottom: 10px;
+}
+
+/* artist_last_search */
+#artist_selected_ul,
+#artist_search_get_new_ul {
+  margin: 0px 1em;
+}
+#artist_selected_ul .ui-btn,
+#artist_search_get_new_ul .ui-btn {
+  padding: 0px 80px;
+}
+#artist_selected_ul li img,
+#artist_search_get_new_ul li img {
+  width: 67px;
+  height: 58px;
+}
+#artist_search_get_new_ul li .list_artist_name {
+  display: inline-block;
+  margin-top: 5px;
+}
+
+#artist_selected_ul h3,
+#artist_search_get_new_ul h3 {
+  line-height: 40px;
+}
+#artist_search_get_more_new {
+  margin-top: 20px;
+  text-align: center;
+}
+
+/* artist */
+#tracklist_make_artist_section {
+  margin-top: 0px;
+  display: none;
+  text-align: center;
+}
+#tracklist_make_artist_image {
+  margin-right: 5px;
+  vertical-align: middle;
+}
+#tracklist_make_artist_image img {
+  height: 200px;
+}
+#tracklist_make_artist_name {
+  font-size: x-large;
+  text-shadow: 1px 1px 1px #eee;
+  line-height: 40px;
+  color: #000;
+}
+#tracklist_make_artist_name a {
+}
+#tracklist_make_to_artist_page {
+  font-size: x-small;
+  margin-bottom: 5px;
+}
+#tracklist_make_artist_check {
+  clear: both;
+}
+#tracklist_make_artist_check #form_tracklist_make_only {
+  vertical-align: middle;
+}
+#tracklist_make_artist_check label {
+  font-size: small;
+  font-weight: normal;
+  display: inline-block;
+  color: #555;
+}
+#artist_selected_ul {
+  width: 99%;
+  margin: auto;
+}
+#artist_selected_ul .ui-btn, #artist_search_get_new_ul .ui-btn {
+   padding: 0 80px;
+}
+#artist_selected_ul li h3 {
+  margin-left: 8px;
+  margin-top: 17px;
+}
+#artist_selected_ul li img {
+  height: 56px;
+}
+
+/* album_art */
+#tracklist_make_album_append_area {
+  text-align: center;
+}
+#tracklist_make_album_append_area img {
+  width: 60px;
+  height: 60px;
+}
+#tracklist_make_album_art_section {
+  clear: both;
+}
+#tracklist_make_album_not_exist_disp {
+  display: none;
+  text-align: center;
+}
+#tracklist_make_album_art_more {
+  display: none;
+  text-align: center;
+  margin-top: 20px;
+}
+#tracklist_make_hover_album_main_div {
+  position: absolute;
+  text-align: center;
+  margin: auto;
+}
+#tracklist_make_hover_album_name {
+  background: red;
+  width: 200px;
+  margin: auto;
+  color: #fff;
+  font-size: small;
+  line-height: 14px;
+  padding: 0px 2px;
+}
+#tracklist_make_hover_album_art {
+  background: red;
+  width: 204px;
+  margin: auto;
+}
+#tracklist_make_hover_album_art img {
+  width: 195px;
+}
+
+#tracklist_make_album_section {
+  margin: 20px auto 5px auto;
+  width: 100%;
+}
+
+#tracklist_make_album_selected_image {
+  float: left;
+  margin: 0px 5px;
+  width: auto;
+}
+#tracklist_make_album_selected_image img {
+  width: 140px;
+}
+#tracklist_make_album_detail {
+  width: auto;
+  padding: 0px 2px;
+  margin-left: 7px;
+  white-space: normal;
+}
+#tracklist_make_album_selected_tracks {
+  position: relative;
+}
+#tracklist_make_album_selected_tracks_description {
+  font-size: x-small;
+  text-align: center;
+  display: none;
+  margin-bottom: 18px;
+  color: #666;
+}
+#tracklist_make_album_copyright,#tracklist_make_album_release {
+  font-size: small;
+}
+#tracklist_make_album_selected_tracks_area {
+  clear: both;
+}
+#tracklist_make_album_selected_tracks li:hover {
+  cursor: pointer;
+}
+#tracklist_make_album_selected_tracks .track_name {
+  color: #333;
+  display: inline-block;
+  font-weight: normal;
+  margin-left: 10px;
+  text-decoration: underline;
+}
+#tracklist_make_album_selected_tracks .track_name_add_btn {
+  font-size: small;
+  margin-left: 5px;
+}
+#tracklist_make_album_selected_tracks .track_name_add_btn:hover {
+  cursor: pointer;
+}
+#tracklist_make_confirm {
+  text-align: center;
+  margin: 30px 0px;
+}
+
+
+/* tracklist */
+#tracklist_make_form_top {
+  margin-top: 0px;
+}
+#tracklist_make_header {
+  text-align: right;
+}
+#tracklist_make_header_close_btn {
+  display: inline-block;
+  color: #fff;
+  margin-top: 0px;
+  padding: 3px 12px;
+  font-size: x-small;
+  line-height: 17px;
+  vertical-align: middle;
+  font-weight: bold;
+  background: #444;
+}
+#tracklist_make_header_close_btn:hover {
+  cursor: pointer;
+}
+
+#tracklist_make_list_count_description {
+  margin-left: 49px;
+  font-size: small;
+  font-weight: normal;
+}
+#tracklist_make_list_count {
+  font-size: large;
+  display: inline-block;
+  margin-left: 4px;
+  margin-right: 3px;
+}
+#tracklist_make_list_updown {
+  float:left;
+  width: 42px;
+  color: #AD1922;
+  text-shadow: 1px 1px 1px #aaa;
+  margin-top: 50px;
+  margin-left: 0px;
+}
+#tracklist_make_list_updown span {
+  display: inline-block;
+  text-align: center;
+  width: 25px;
+  border: 1px solid #ddd;
+  margin-left: 5px;
+}
+#tracklist_make_list_updown span:hover {
+  cursor: pointer;
+}
+
+.modaldiv_smartphone#tracklist_make_list { /* overlay smartphone */
+  margin: 5px 0px 10px 0px;
+  padding: 3px 3px 0px 0px;
+  overflow: none;
+  background: #fff;
+  height: 90%;
+  width: 95%;
+  z-index: 99999;
+  display: none;
+}
+.modaldiv_pc#tracklist_make_list { /* overlay pc */
+  margin: 10px 5px 20px 5px;
+  padding: 10px;
+  overflow: auto;
+  background: #fff;
+  height: 80%;
+  width: 60%;
+  z-index: 99999;
+  display: none;
+}
+#tracklist_make_list .ui-input-text {
+  width: 85%;
+  margin: 9px 0 5px 40px;
+}
+#tracklist_title {
+  width: 90%;
+  font-size: medium;
+}
+#tracklist_make_list_artist_name {
+  font-size: normal;
+  font-weight: bold;
+  margin-top: 4px;
+  margin-left: 49px;
+  margin-bottom: 4px;
+  text-align: left;
+  color: #000;
+  width: 95%;
+}
+#tracklist_make_list h5 {
+  margin: 6px auto 4px auto;
+  width: 95%;
+  text-align: left;
+  text-decoration:none;
+  font-size: normal;
+  color: #55375b;
+  text-shadow: 1px 1px 4px #eee;
+}
+#tracklist_make_list_div { /* div ul */
+  overflow: auto;
+  height: auto;
+  border: 1px solid #ccc;
+  margin-top: 3px;
+  width: 85%;
+}
+#tracklist_make_list_tracks {
+  width: 92%;
+  margin: 0px 5px 0px 8px;
+  position: relative;
+}
+#tracklist_make_list_tracks li {
+  padding: 2px 2px;
+  font-size: small;
+}
+#tracklist_make_list_tracks li:hover {
+  cursor: pointer;
+}
+#tracklist_make_list_tracks li .del_track_list {
+  color: #722240;
+  text-decoration: underline;
+  font-size: x-small;
+}
+#tracklist_make_list_submit {
+  clear: both;
+  margin: 7px 0px 5px 5px;
+  text-align: center;
+  width: 98%;
+}
+#tracklist_make_list_close_btn {
+  font-size: small;
+  width: 33%;
+}
+#tracklist_make_list_submit_btn {
+  font-size: small;
+  width: 33%;
+  margin-left: 3px;
+}
+#lean_overlay {
+  position: fixed;
+  z-index:100;
+  top: 0px;
+  left: 0px;
+  height:100%;
+  width:100%;
+  background: #000;
+  display: none;
+  overflow: auto;
+}
+
+
+.album_image {
+  cursor: pointer;
+}
+
+/* 最近検索されたアーティスト一覧 */
+#artist_search_get_new_title {
+  margin: 0px 0px 5px 15px;
+  font-size: small;
+  font-weight:normal;
+}
+

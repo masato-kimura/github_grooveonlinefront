@@ -1,0 +1,51 @@
+@CHARSET "UTF-8";
+
+.main_div {
+
+}
+.introduction {
+
+}
+.input_table {
+	margin: auto;
+	width: 100%;
+}
+.input_table .title td {
+  padding: 6px;
+  text-align: center;
+  background: #ddd;
+  width: 100%;
+  font-size: 14px;
+}
+.input_table .title td .main {
+  font-size: 16px;
+}
+.input_table .ans td {
+  padding: 5px;
+  text-align: center;
+}
+.input_table .ans img {
+	border: 1px solid #777;
+	box-shadow: 1px 1px 1px #aaa;
+	margin: 10px 0px;
+	width: 160px;
+}
+.input_table th {
+	text-align: left;
+	height: 45px;
+	vertical-align: top;
+}
+.input_table th .sub {
+	font-weight: normal;
+}
+.input_table td {
+	word-break: break-all;
+}
+.global_back_btn,
+.global_submit_btn,
+.global_submit_btn:hover {
+  width: 100%;
+  height: 60px;
+  margin-bottom: 10px;
+  font-size: 18px;
+}

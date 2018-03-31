@@ -1,0 +1,63 @@
+@CHARSET "UTF-8";
+
+.main_div {
+  margin: auto;
+  padding: 40px 0px;
+}
+.introduction {
+  padding: 20px 0px 20px 0px;
+  font-size: 28px;
+  text-shadow: 1px 2px 5px #aaa;
+  text-align: center;
+}
+h5 {
+  text-align: center;
+}
+.gol_table {
+    margin: 20px auto;
+    width: 600px;
+}
+.gol_table .title {
+    color: purple;
+    width: 140px;
+}
+.gol_table .title .error {
+    padding: 0px 0px 0px 30px;
+    color: red;
+    font-weight: bold;
+}
+.gol_table .ans {
+    padding: 0px;
+}
+.gol_table .ans input, select {
+    font-size:14px;
+}
+.gol_table .ans input[type=text],
+.gol_table .ans input[type=email],
+.gol_table .ans input[type=password] {
+    border: 1px solid #999;
+    width:350px;
+    height: 30px;
+    padding: 0px 10px;
+    vertical-align: middle;
+    font-size: 14px;
+ }
+
+.gol_table .submit td {
+  padding-top: 10px;
+}
+.global_submit_btn{
+    width: 370px;
+}
+.global_submit_btn:hover {
+    width: 370px;
+}
+
+.error_disp {
+  display:block;
+  margin: auto;
+  padding: 10px 0px;
+}
+.error {
+    color:red;
+}

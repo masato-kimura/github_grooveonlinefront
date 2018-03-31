@@ -1,0 +1,160 @@
+@CHARSET "UTF-8";
+.ui-controlgroup-controls {
+  width: 100%;
+}
+.main_div {
+    min-height: 1000px;
+}
+.introduction {
+    padding: 20px 0px 30px 0px;
+    font-size: 28px;
+    text-shadow: 1px 2px 5px #aaa;
+    text-align: center;
+}
+.main_form {
+    width: 1000px;
+    margin: auto;
+    min-height: 1000px;
+}
+.gol_table {
+    float: left;
+    width: 450px;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+.gol_table .open_option {
+    text-align: center;
+    cursor: pointer;
+    text-decoration: underline;
+    padding-bottom: 10px;
+    color: #555;
+    font-size: 12px;
+}
+.gol_table th {
+    text-align: left;
+    height: 45px;
+    vertical-align: top;
+}
+.gol_table th .sub {
+    font-weight: normal;
+    font-size: 12px;
+    padding: 0px 0px 0px 20px;
+}
+.gol_table .title td {
+    padding: 10px 0px 0px 0px;
+    color: purple;
+}
+.gol_table .title td .main {
+    padding: 10px 0px 0px 20px;
+    color: #234356;
+    font-weight: bold;
+}
+.gol_table .title td .sub {
+    font-size:12px;
+    padding: 0px 0px 0px 30px;
+    color: #382225;
+}
+.gol_table .title td .error {
+    padding: 0px 0px 0px 30px;
+    color: red;
+    font-weight: bold;
+}
+.gol_table .ans td {
+    padding: 0px 0px 7px 30px;
+}
+.gol_table .ans .sub {
+  font-size: 12px;
+}
+.gol_table .ans td input {
+  font-size:14px;
+}
+
+.gol_table .ans td select {
+ font-size:14px;
+ height: 30px;
+ min-width: 60px;
+}
+.gol_table .ans td input[type=text],
+.gol_table .ans td input[type=email],
+.gol_table .ans td input[type=password] {
+    border: 1px solid #999;
+    width:350px;
+    height: 30px;
+    padding: 0px 10px;
+    vertical-align: middle;
+    font-size: 14px;
+ }
+.gol_table .open_option {
+    padding-top: 10px;
+}
+.gol_table .ans label {
+    font-size: 12px;
+    margin-left: 5px;
+}
+.gol_table .birthday_checkbox_div {
+  margin-top: 10px;
+}
+.gol_table .ans input[type=file] {
+    font-size: 12px;
+}
+.gol_table .ans img {
+    border: 1px solid #777;
+    box-shadow: 1px 1px 1px #aaa;
+    width: 160px;
+}
+.gol_table td {
+    word-break: break-all;
+    padding-right: 30px;
+}
+.gol_table .autologin td {
+    font-size: 12px;
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-bottom: 10px;
+}
+.gol_table .submit td {
+    padding-left: 30px;
+    padding-bottom: 30px;
+}
+.gol_table input[type=submit] {
+    width: 370px;
+    height: 52px;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+.gol_table input[type=submit]:active {
+    background: #blue;
+}
+.oauth_table {
+    float:left; width: 450px;
+}
+.oauth_table th {
+    text-align: left;
+    height: 60px;
+    vertical-align: top;
+}
+.oauth_table th .sub {
+    font-weight: normal;
+    padding: 7px 0px 10px 20px;
+    display: inline-block;
+    font-size: 12px;
+}
+.oauth_table td {  }
+.oauth_table .oauth td {
+	padding: 0px 0px 10px 20px;
+}
+.oauth_table .autologin td {
+    padding: 10px 0px 0px 20px;
+    font-size: 12px;
+}
+.oauth_table .submit td {
+	padding: 0px 0px 0px 20px;
+}
+.error {
+    color:red;
+}
+textarea {
+    width:400px;
+    padding: 5px;
+}

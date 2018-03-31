@@ -1,0 +1,75 @@
+@CHARSET "UTF-8";
+input[type=button] {
+  cursor: pointer;
+}
+.content {
+  padding: 0px;
+}
+.ui-content {
+  padding: 0px;
+}
+.main_div {
+  width: 100%;
+}
+.artist_search_content {
+  padding: 1em 0;
+}
+.loading {
+  text-align: center;
+}
+
+/* 検索フォーム */
+#search_more {
+  display:block;
+  margin-bottom: 60px;
+  text-align: center;
+}
+
+#artist_search_get_new_title {
+  margin: 0px 0px 5px 15px;
+  font-size: small;
+  font-weight:normal;
+}
+
+#artist_selected_ul,
+#artist_search_get_new_ul {
+  margin: 0px 1em;
+}
+#artist_selected_ul .ui-btn,
+#artist_search_get_new_ul .ui-btn {
+  padding: 0px 80px;
+}
+#artist_selected_ul li img,
+#artist_search_get_new_ul li img {
+  width: 67px;
+  height: 58px;
+}
+#artist_search_get_new_ul li .list_artist_name {
+  display: inline-block;
+  margin-top: 5px;
+}
+
+#artist_selected_ul h3,
+#artist_search_get_new_ul h3 {
+  line-height: 40px;
+}
+.description {
+  margin-left: 1em;
+  margin-bottom: 0px;
+  font-size: 30px;
+  padding: 0;
+  text-shadow: 1px 1px 1px #ddd;
+}
+#search_form {
+  margin: 0em 1em;
+}
+#api_error_response {
+  text-align: center;
+  position: relative;
+  top: -30px;
+}
+
+#artist_search_get_more_new {
+  margin-top: 20px;
+  text-align: center;
+}

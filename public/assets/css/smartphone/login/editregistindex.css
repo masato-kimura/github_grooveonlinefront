@@ -1,0 +1,116 @@
+@CHARSET "UTF-8";
+.ui-field-contain > label ~ [class*="ui-"], .ui-field-contain .ui-controlgroup-controls {
+  width: 100%;
+}
+.ui-field-contain, .ui-mobile fieldset.ui-field-contain {
+  margin: 0px 0px 10px 0px;
+}
+.main_title {
+  padding: 0px;
+  margin: 10px 0px 5px 0px;
+}
+.main_form {
+
+}
+.introduction {
+  color: #333;
+  text-shadow: 1px 1px 5px #ddd;
+  text-align: left;
+}
+.span_required {
+  color: #7E2E4C;
+}
+.ui-input-text {
+  margin: 0px;
+}
+.caption {
+  font-size: small;
+  color: #999;
+}
+.login_icon {
+  width: 100%;
+  cursor: default;
+}
+.ui-controlgroup-horizontal .ui-controlgroup-controls {
+  width: 100%;
+}
+.ui-controlgroup-controls {
+  width: 100%;
+}
+.ui-controlgroup-horizontal .ui-controlgroup-controls .ui-select {
+  width: 33%;
+  margin: 1px 1px 6px 0px;
+}
+#editregistindex_to_userpage {
+  font-size: small;
+  text-align: right;
+  margin-top: -8px;
+  margin-right: 10px;
+  margin-bottom: 8px;
+}
+#editregistindex_to_userpage a {
+  color: #38c;
+  text-decoration: underline;
+  text-shadow: 1px 1px 2px #ddd;
+  margin-right: -10px;
+}
+#editregistindex_email_disp,
+#editregistindex_password_disp {
+  padding: 5px;
+}
+.ui-input-btn {
+  color: blue;
+}
+.label_div {
+  background: #ddd;
+  padding: 0px 5px;
+  margin-bottom: 2px;
+  line-height: 30px;
+}
+#form_auto_login_gol + label,
+#form_auto_login_oauth + label {
+  position: relative;
+  top: 9px;
+}
+.ui-mobile label {
+  margin: 0px;
+}
+.field_checkbox {
+  vertical-align: text-bottom;
+  line-height: 20px;
+  margin: 10px 0px 0px 10px;
+}
+
+.field_checkbox input {
+  display: -block;
+  float: left;
+  margin-right: 10px;
+  width: 20px;
+}
+
+.field_checkbox label {
+  top: -2px;
+  position: relative;
+}
+.global_facebook_login_btn,
+.global_google_login_btn,
+.global_twitter_login_btn,
+.global_yahoo_login_btn,
+.global_submit_btn,
+.global_submit_btn:hover {
+  width: 100%;
+  height: 60px;
+  margin: 2px 0px;
+}
+
+#lean_overlay {
+    position: fixed;
+    z-index:100;
+    top: 0px;
+    left: 0px;
+    height:100%;
+    width:100%;
+    background: #000;
+    display: none;
+}
+

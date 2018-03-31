@@ -1,0 +1,113 @@
+@CHARSET "UTF-8";
+input[type=button] {
+  cursor: pointer;
+}
+
+#artist_search_content {
+  min-height: 950px;
+  padding-bottom: 150px;
+  margin: 30px auto;
+  text-align: center;
+}
+#artist_search_section .main_title {
+  
+}
+#artist_search_section .description {
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+
+#artist_search_section .title{
+  font-size: 16px;
+  width: 150px;
+}
+#artist_search_input {
+  border: 1px solid #bbb;
+  vertical-align: middle;
+  height:40px;
+  padding: 0px 10px;
+  width: 300px;
+  font-size: 16px;
+}
+#artist_search_clear_text {
+  display:inline-block;
+  cursor:pointer;
+  border:1px solid #777;
+  vertical-align: middle;
+  height: 40px;
+  width: 50px;
+  text-align: center;
+  font-size:25px;
+  color: #fff;
+  background: #999;
+}
+#artist_search_clear_text:hover {
+  background: #666;
+}
+
+#artist_search_search_button {
+  height: 43px;
+  margin-left: 5px;
+  vertical-align: middle;
+  width: 100px;
+  font-size: 14px;
+}
+#missing_div {
+  margin-top: 5px;
+  margin-left: 140px;
+  text-decoration: underline;
+  cursor: pointer;
+  display:none;
+ }
+ #loading_top {
+  display: none;
+  margin-top: 50px;
+ }
+ #search_more {
+  margin-top: 20px;
+  text-decoration: underline;
+  text-align: center;
+  cursor: pointer;
+  visibility: visible;
+  clear: both;
+}
+ #api_error_response {
+  margin-top: 20px;
+ text-decoration: underline;
+ text-align: center;
+ cursor: pointer;
+ visibility: visible;
+ clear: both;
+}
+#loading_bottom {
+  margin:20px 0px;
+  text-align: center;
+}
+.main_name {
+  position: absolute;
+  color: #eee;
+  font-weight: bold;
+}
+.main_image {
+  position: absolute;
+  left: 170px;
+}
+.main_image img {
+  width: 300px;
+  border: 1px solid #777;
+}
+
+.title { display: inline-block; vertical-align: middle; margin-right: 10px; width: 120px; }
+.appended { border-bottom: 1px solid #bbb; }
+.append_image { display:inline-block; width: 100px; text-align: center; vertical-align: middle; background: #000; cursor: pointer; }
+.append_image img { height:50px; }
+.append_name { display: inline-block; vertical-align: middle; margin-left: 0px; width: 350px; }
+.to_review {
+  margin-right: 5px;
+  padding: 10px 5px;
+}
+.to_favorite { 
+  vertical-align: middle; 
+  height: 30px; 
+  padding: 0px 5px; 
+}

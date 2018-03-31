@@ -1,0 +1,461 @@
+@CHARSET "UTF-8";
+
+.ui-header {
+  margin-bottom: 5px;
+}
+.main_div {
+  background-image: url('./../../../img/web/ojredspecial.png');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center 85px;
+  background-attachment: scroll;
+  text-shadow : 1px 1px 0px #fff;
+  margin-bottom: 20px;
+  width: 94%;
+  border: 0px;
+  max-width: 840px;
+  padding: 10px 10px 10px 10px;
+  min-height: 2450px;
+  position: relative;
+  background-color: rgba(250, 231, 170, 0.10);
+}
+
+.contents_title {
+  text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3);
+}
+.pink {
+  color: pink;
+}
+.index_main_title_div {
+  min-height: 66px;
+}
+.index_main_title {
+  font-family: 'IMPACT_WEB';
+  text-align: center;
+  padding: 0px;
+  width: 100%;
+  text-shadow: 1px 20px 40px #777;
+  margin-left: -4px;
+  color: red;
+  white-space: nowrap;
+  display: none;
+}
+.index_main_title a {
+  color: red;
+  text-decoration: none;
+}
+.index_sub_title {
+  color: #000;
+  text-align: right;
+  padding: 0px;
+  margin: -10px 0px 0px;
+  font-weight: bold;
+  font-size:15px;
+}
+.index_sub_title .bata {
+  color: #ccc;
+  font-weight: bold;
+  font-size: x-large;
+  text-shadow: 1px 1px 2px #000;
+}
+
+#index_artist_search_link {
+  margin-top: 5px;
+  text-align: center;
+  font-size: 13px;
+}
+#index_artist_search_link .search_link_1,
+#index_artist_search_link .search_link_2 {
+  margin: 0px;
+}
+
+
+
+/* 最新トラックリスト・最新レビュー記事一覧(共通) */
+.article_list_section {
+  clear: both;
+}
+.article_list_section .review_title {
+  margin: 5px 0px -1px 0px;
+  font-size: x-large;
+  text-align: left;
+}
+.article_list_section .article_section_more_link {
+  text-align: center;
+  margin-top: 2px;
+}
+.article_list_section .article_list_footer {
+  margin-top: 3px;
+}
+.article_list_section .article_list_at {
+  color: #555;
+  padding: 0px;
+  font-size: 10px;
+  font-style:itaric;
+  float: left;
+  width: 120px;
+  display: block;
+  line-height: 12px;
+  margin-left: 7px;
+}
+.article_list_section .article_list_user {
+  display: block;
+  font-size: 11px;
+  line-height: 12px;
+  margin-bottom: 2px;
+  padding: 0 2px 0 0;
+  position: relative;
+  text-align: right;
+  top: -1px;
+  font-weight: bold;
+}
+
+
+/* 最新レビュー（トラックリスト） */
+#about_detail_tracklist_div .tracklist_list_title {
+  text-align: left;
+  font-size: 14px;
+  font-style: italic;
+  text-shadow: 1px 1px 0 #fff;
+  color: #000;
+  font-weight: 700;
+}
+#about_detail_tracklist_div .review_list_ul {
+  background: inherit;
+  padding: 0px;
+  margin: 0px;
+}
+#about_detail_tracklist_div .review_list_li {
+  padding-top: 8px;
+  padding-left: 5px;
+  vertical-align: top;
+  background: inherit;
+  list-style: none;
+  font-size: small;
+  border-bottom: 1px solid #ddd;
+  box-shadow: 0px 0px 0px #fff;
+}
+#about_detail_tracklist_div .tracklist_list_tracks {
+  margin-left: 0px;
+  width: 100%;
+  padding-left: 22px;
+  display: block;
+  margin-top: 1px;
+}
+#about_detail_tracklist_div .list_track_name {
+  font-size: 12px;
+  text-shadow: 1px 1px 0 #fff;
+  text-decoration: underline;
+}
+#about_detail_tracklist_div .list_artist_name {
+  color: crimson;
+  text-shadow: none;
+}
+#about_detail_tracklist_div .tracklist_list_and_more {
+  font-size: small;
+  color: #333;
+  margin-left: 22px;
+}
+
+
+/* 最新レビュー（レビュー）*/
+#about_detail_reviewlist_div .review_list_table {
+  margin: auto;
+  padding: 0px;
+  width: 100%;
+  font-size: 12px;
+  border-collapse: collapse;
+  border: 0px;
+}
+#about_detail_reviewlist_div .review_area_tr {
+  vertical-align: text-bottom;
+  border-bottom: 1px solid #ddd;
+}
+#about_detail_reviewlist_div .review_area_tr td {
+  padding-top: 2px;
+}
+#about_detail_reviewlist_div .review_image {
+  padding: 5px 0px 0px 0px;
+  margin: 0px;
+  width: 60px;
+  vertical-align: top;
+}
+#about_detail_reviewlist_div .review_image img {
+  width: 50px;
+  height: 50px;
+  padding: 0px;
+  margin: 0px;
+  border: 1px solid #ddd;
+}
+#about_detail_reviewlist_div .review {
+  text-align: left;
+  padding: 3px 0px 0px 3px;
+}
+#about_detail_reviewlist_div .about {
+  vertical-align: top;
+  font-size: 11px;
+  display: inline-block;
+  border: 1px solid #555;
+  line-height: 12px;
+  padding: 1px 2px;
+  width: 35px;
+  text-align: center;
+  border-radius: 1px;
+  margin-top: 3px;
+  margin-right: 1px;
+  background-color: #FFFFF6;
+}
+#about_detail_reviewlist_div .about_name {
+  margin-top: 2px;
+  display: inline-block;
+  text-shadow : 1px 1px 0px #fff;
+}
+#about_detail_reviewlist_div .star {
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+  color: #B41839;
+}
+#about_detail_reviewlist_div .about_review {
+  display: block;
+  text-align: left;
+  margin-left: 5px;
+  line-height: 14px;
+  text-shadow : 1px 1px 0px #fff;
+}
+#about_detail_reviewlist_div .about_review a {
+  color: #000;
+  text-shadow : 1px 1px 0px #fff;
+}
+
+
+
+/* トップレビュー */
+#index_top_review {
+  margin-top: 30px;
+}
+#index_top_review_music_0 {
+  margin : 10px 0px 0px 5px;
+  text-align: left;
+  width: 85%;
+}
+#index_top_review_music_0 a {
+  color: #3A4F6C;
+}
+#index_top_review_music_0 a:hover {
+  color: #5C86C2; /* blue */
+}
+#index_top_review_music_0 .attention_1 {
+  font-size: 22px;
+  font-weight: bold;
+  line-height: 20px;
+  font-style: italic;
+}
+#index_top_review_music_0 .attention_2 {
+  font-size: 14px;
+  font-weight: bold;
+  font-style: italic;
+  margin-left: 5px;
+}
+#index_top_review_music_0 .annotation {
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: bold;
+  display: block;
+}
+
+
+#index_top_review_music_1 {
+  margin : 35px 5px 0px 20px;
+  text-align: right;
+}
+#index_top_review_music_1 a,
+#index_top_review_music_1 a:visited {
+  color: #441E2E;
+  width: 70%;
+}
+#index_top_review_music_1 a:hover {
+  color: #B2386A; /* pink */
+}
+#index_top_review_music_1 .attention_1 {
+  font-size: 21px;
+  font-weight: bold;
+  line-height: 22px;
+  font-style: italic;
+}
+#index_top_review_music_1 .attention_2 {
+  font-size: 16px;
+  font-weight: bold;
+  font-style: italic;
+  margin-left: 5px;
+}
+#index_top_review_music_1 .annotation {
+  font-size: 13px;
+  line-height: 15px;
+  font-weight: bold;
+  display: block;
+}
+
+#index_top_review_music_2 {
+  margin : 30px 0px 30px 5px;
+  text-align: left;
+}
+#index_top_review_music_2 a,
+#index_top_review_music_2 a:visited {
+  color: #3A4F6C;;
+}
+#index_top_review_music_2 a:hover {
+  color: #5C86C2; /* blue */
+}
+#index_top_review_music_2 .attention_1 {
+  font-size: 17px;
+  font-weight: bold;
+  line-height: 19px;
+  font-style: italic;
+}
+#index_top_review_music_2 .attention_2 {
+  font-size: 14px;
+  font-weight: bold;
+  font-style: italic;
+  margin-left: 5px;
+}
+#index_top_review_music_2 .annotation {
+  font-size: 12px;
+  line-height: 14px;
+  font-weight: bold;
+  display: block;
+}
+.weekly_rank_next {
+  font-size: x-small;
+  text-align: left;
+  margin-top: 5px;
+  margin-left: 0px;
+}
+
+
+/* 週間トラックランキング */
+.weekly_rank_track_section {
+  cursor: pointer;
+}
+.weekly_rank_track_section .weekly_rank_track_list_table {
+  margin: auto;
+  padding: 0px;
+  width: 100%;
+  font-size: 12px;
+  border-collapse: collapse;
+  border: 0px;
+}
+.weekly_rank_track_section .rank_title {
+  text-align: left;
+  padding: 5px 0px 0px 0px;
+  margin-bottom: 0px;
+  font-size: large;
+  line-height: 19px;
+  color: #000;
+}
+.weekly_rank_track_section .rank_title h4 {
+  margin: 0px 0px 2px 0px;
+}
+.weekly_rank_track_section .rank_while {
+  text-align: left;
+  padding: 0px;
+  margin-top: 0px;
+  font-size: 12px;
+  line-height: 20px;
+}
+.weekly_rank_track_section .weekly_rank_track_list_table .weekly_rank_track_list_tr {
+  border-bottom: 1px solid #ddd;
+}
+.weekly_rank_track_section .weekly_rank_track_list_table img {
+  width: 50px;
+  height: 50px;
+  padding: 0px;
+  margin: 0px;
+  border: 1px solid #ddd;
+}
+.weekly_rank_track_section .weekly_rank_track_list_table .weekly_rank_track {
+
+}
+.weekly_rank_track_section .weekly_rank_track_list_table .weekly_rank_track a {
+  text-decoration: none;
+  text-shadow : 1px 1px 0px #fff;
+  color: #000;
+}
+.weekly_rank_track_section .weekly_rank_track_list_table .rank {
+
+}
+.weekly_rank_track_section .weekly_rank_track_list_table .weekly_rank_track_image {
+  width: 60px;
+}
+.weekly_rank_track_section .weekly_rank_track_list_table .rank_track_name {
+  display: block;
+  margin-top: 2px;
+  text-shadow : 1px 1px 0px #fff;
+  text-decoration: underline;
+}
+.weekly_rank_track_section .weekly_rank_track_list_table .rank_artist_name {
+  display: block;
+}
+
+
+/* 週間アルバムランキング */
+.weekly_rank_album_section {
+  cursor: pointer;
+}
+.weekly_rank_album_section .weekly_rank_album_list_table {
+  margin: auto;
+  padding: 0px;
+  width: 100%;
+  font-size: 12px;
+  border-collapse: collapse;
+  border: 0px;
+}
+.weekly_rank_album_section .rank_title {
+  text-align: left;
+  padding: 5px 0px 0px 0px;
+  margin-bottom: 0px;
+  font-size: large;
+  line-height: 19px;
+  color: #000;
+}
+.weekly_rank_album_section .rank_title h4 {
+  margin: 0px 0px 2px 0px;
+}
+.weekly_rank_album_section .rank_while {
+  text-align: left;
+  padding: 0px;
+  margin-top: 0px;
+  font-size: 12px;
+  line-height: 20px;
+}
+.weekly_rank_album_section .weekly_rank_album_list_table .weekly_rank_album_list_tr {
+  border-bottom: 1px solid #ddd;
+}
+.weekly_rank_album_section .weekly_rank_album_list_table img {
+  width: 50px;
+  height: 50px;
+  padding: 0px;
+  margin: 0px;
+  border: 1px solid #ddd;
+}
+.weekly_rank_album_section .weekly_rank_album_list_table .weekly_rank_album {
+
+}
+.weekly_rank_album_section .weekly_rank_album_list_table .weekly_rank_album a {
+  text-decoration: none;
+  text-shadow : 1px 1px 0px #fff;
+  color: #000;
+}
+.weekly_rank_album_section .weekly_rank_album_list_table .rank {
+
+}
+.weekly_rank_album_section .weekly_rank_album_list_table .weekly_rank_album_image {
+  width: 60px;
+}
+.weekly_rank_album_section .weekly_rank_album_list_table .rank_album_name {
+  display: block;
+  margin-top: 2px;
+  text-shadow : 1px 1px 0px #fff;
+  text-decoration: underline;
+}
+.weekly_rank_album_section .weekly_rank_album_list_table .rank_artist_name {
+  display: block;
+}

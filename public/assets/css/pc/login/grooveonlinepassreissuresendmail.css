@@ -1,0 +1,21 @@
+@CHARSET "UTF-8";
+
+.main_div {
+  width: 600px;
+  margin: auto;
+  padding: 40px 0px;
+}
+.introduction {
+    padding: 20px 0px 30px 0px;
+    font-size: 28px;
+    text-shadow: 1px 2px 5px #aaa;
+    text-align: center;
+}
+.error_disp {
+  width: 65%;
+  display:block;
+  margin: auto;
+}
+.error {
+    color:red;
+}

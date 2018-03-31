@@ -1,0 +1,188 @@
+@CHARSET "UTF-8";
+.content {
+  padding: 0px;
+}
+.main_div {
+  min-height: 1000px;
+  margin: 10px 0px 0px 30px;
+  padding: 0px;
+  width: auto;
+}
+#user_you_userinfo_table .left_td #user_you_main_title {
+  font-family: "impact";
+  font-size: 90px;
+  line-height: 75px;
+  font-weight: bold;
+  color: #999;
+  padding: 0px;
+  margin: 0px;
+}
+
+#user_you_userinfo_table {
+  margin-top: 30px;
+  border-collapse: collapse;
+  width: 90%;
+  padding: 0px;
+  margin: 0px;
+}
+#user_you_userinfo_table .left_td {
+  min-width: 300px;
+  height: auto;
+  padding-top: 10px;
+  padding-left: 15px;
+  vertical-align: top;
+}
+#user_you_userinfo_table .left_td .user_name {
+  font-family: 'impact', 'ヒラギノ角ゴ Pro W6', Meiryo, メイリオ, 'ＭＳ Ｐゴシック', 'MS Gothic', 'Lucida Grande', 'sans', sans-serif;
+  font-size: 60px;
+  font-weight: bold;
+  color: #555;
+  line-height: 60px;
+}
+#user_you_userinfo_table .left_td .first_last_name {
+  font-family: 'impact', 'ヒラギノ角ゴ Pro W6', Meiryo, メイリオ, 'ＭＳ Ｐゴシック', 'MS Gothic', 'Lucida Grande', 'sans', sans-serif;
+  font-size: 16px;
+  line-height: 16px;
+  color: #554;
+  margin-top: -3px;
+  margin-left: 3px;
+}
+#user_you_userinfo_table .right_td {
+  text-align: left;
+  width: 550px;
+  vertical-align: top;
+  padding-top: 10px;
+  padding-right: 10px;
+}
+#user_you_userinfo_table .right_td img {
+  width: 300px;
+}
+#user_you_userinfo_table .profile {
+  vertical-align: top;
+  padding: 20px 10px 20px 20px;
+}
+#user_you_userinfo_table .profile .title {
+  padding: 0px;
+  margin: 10px 0px 0px 0px;
+  vertical-align: bottom;
+  font-size: 20px;
+  color: #553;
+  line-height: 20px;
+  margin-left: 3px;
+}
+#user_you_userinfo_table .profile .ans {
+  font-size: 18px;
+  line-height: 20px;
+  color: #333;
+  margin-left: 20px;
+  margin-right: 40px;
+}
+
+
+
+/* レビューエリア */
+#about_detail_review_div {
+  width: auto;
+  min-height: 200px;
+  float: left;
+  margin: 8px 0px 20px 0px;
+  padding-bottom: 10px;
+  border: 1px solid #bbb;
+}
+#about_detail_review_div .review_navi {
+  background: #ddd;
+  margin: 0px;
+  padding: 2px 0px 2px 10px;
+  font-size: 12px;
+  color: #3B3533;
+}
+#about_detail_review_div .review_navi .review_navi_ans a {
+  color: #fff;
+  text-shadow: 1px 1px 1px #111;
+}
+#about_detail_review_div .review_navi .review_navi_child {
+  text-shadow: 1px 1px 3px #fff;
+}
+#about_detail_review_div .review_navi .review_navi_ans {
+  color: #fff;
+  text-shadow: 1px 1px 1px #111;
+}
+#about_detail_review_div .review_title {
+  padding: 0px;
+  margin: 5px 0px 5px 10px;
+  width: 400px;
+}
+#user_you_userinfo_table .written .review_list_table {
+  border-collapse: collapse;
+  line-height: 13px;
+  font-size: 14px;
+  margin: 5px 10px 20px 10px;
+}
+#user_you_userinfo_table .written .review_list_table .review_area_tr {
+  border-bottom: 1px solid #ddd;
+}
+#user_you_userinfo_table .review_list_table .none_review_tr {
+  border: 0px;
+ }
+#user_you_userinfo_table .review_list_table .none_review {
+  height: 60px;
+  padding: 40px;
+  margin: auto;
+ }
+#user_you_userinfo_table .written .review_list_table .review_area_tr td {
+  padding-top: 5px;
+}
+#user_you_userinfo_table .written .review_list_table .review_image {
+  width: 60px;
+  vertical-align: top;
+}
+#user_you_userinfo_table .written .review_list_table .review_image img {
+  width: 50px;
+  max-height: 50px;
+}
+
+#user_you_userinfo_table .written .review_list_table .review_about .review {
+  width: 350px;
+  line-height: 18px;
+  margin-top: 3px;
+  display: block;
+  vertical-align: bottom;
+} 
+
+#user_you_userinfo_table .written .review_list_table .review_about .about {
+  vertical-align: top;
+  font-size: 11px;
+  display: inline-block;
+  border: 1px solid #555;
+  line-height: 12px;
+  padding: 1px 2px;
+  width: 35px;
+  text-align: center;
+  border-radius: 1px;
+  margin-right: 10px;
+  background-color: #FFFFF6;
+  text-shadow: 1px 1px 1px #ddd;
+}
+#user_you_userinfo_table .written .review_list_table .review_about .about_name {
+  line-height: 14px;
+  vertical-align: text-bottom;
+}
+#user_you_userinfo_table .written .review_list_table .review_about .star {
+  font-size: 12px;
+  line-height: 12px;
+  display: block;
+  margin-top: 2px;
+  width: 300px;
+  float: left;
+}
+#user_you_userinfo_table .written .review_list_table .review_about .at {
+  font-size: 10px;
+  text-decoration: itaric;
+  color: #555;
+  line-height: 12px;
+  display: block;
+  margin-top: 4px;
+  margin-left: 5px;
+  float: right;
+  vertical-align: bottom;
+}

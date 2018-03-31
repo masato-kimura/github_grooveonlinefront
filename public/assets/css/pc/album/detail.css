@@ -1,0 +1,175 @@
+@CHARSET "UTF-8";
+.content {
+  padding: 0px;
+}
+.main_div {
+  max-width: auto;
+  min-height: 1000px;
+  margin: 10px 0px 0px 30px;
+  padding: 0px;
+}
+#album_detail_table {
+  float: left;
+  width: 300px;
+  height: 1000px;
+  margin-right: 30px;
+}
+#album_detail_table td {
+  vertical-align: top;
+}
+#album_detail_table #album_detail_img {
+  max-height: 250px;
+  height: 200px;
+  width: 200px;
+}
+#album_detail_table #album_detail_img img {
+  width: 200px;
+  max-height: 250px;
+}
+#album_detail_table #album_detail_name .album_title {
+  margin-bottom: 10px;
+  font-size: 20px;
+  line-height: 22px;
+  color: #222;
+  text-shadow: 1px 1px 2px #ccc;
+  font-weight: bold;
+}
+#album_detail_table .album_track {
+  font-size: 16px;
+  line-height: 18px;
+}
+#album_detail_table #album_detail_name {
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0px;
+}
+
+
+
+/* アーティストテーブル */
+#artist_detail_table {
+  height: 200px;
+  width: 500px;
+}
+#artist_detail_table #artist_detail_image {
+  width: 80px;
+  padding: 0px 5px 0px 0px;
+}
+#artist_detail_table #artist_detail_image img {
+  width: 80px;
+}
+#artist_detail_table #artist_detail_name {
+
+}
+#artist_detail_table #artist_detail_name .artist_name {
+ 
+}
+#artist_detail_table #artist_detail_name hr {
+  border: 1px solid #111;
+  margin: 2px 0px;
+  padding: 0px;
+}
+#artist_detail_table #artist_detail_name .album_name {
+  font-size: 30px;
+  line-height: 32px;
+  margin-right: 10px;
+}
+#artist_detail_table .about {
+  background-color: #fffff6;
+  border: 1px solid #555;
+  display: inline-block;
+  font-size: 12px;
+  line-height: 13px;
+  padding: 1px 2px;
+  text-align: center;
+  text-shadow: 1px 1px 1px #ddd;
+  vertical-align: middle;
+  margin-bottom: 7px;
+  width: 35px;
+}
+
+
+/* アルバムレビューエリア */
+#about_detail_review_div {
+  width: auto;
+  min-height: 150px;
+  float: left;
+  margin-top: 8px;
+  padding-bottom: 3px;
+  border: 1px solid #bbb;
+}
+#about_detail_review_div .review_navi {
+  background: #ddd;
+  margin: 0px;
+  padding: 2px 0px 2px 10px;
+  font-size: 12px;
+  color: #3B3533;
+}
+#about_detail_review_div .review_navi .review_navi_ans a {
+  color: #fff;
+  text-shadow: 1px 1px 1px #111;
+}
+#about_detail_review_div .review_navi .review_navi_child {
+  text-shadow: 1px 1px 3px #fff;
+}
+#about_detail_review_div .review_navi .review_navi_ans {
+  color: #fff;
+  text-shadow: 1px 1px 1px #111;
+}
+#about_detail_review_div .review_title {
+  padding: 0px;
+  margin: 10px 0px 0px 10px;
+  width: 300px;
+}
+#about_detail_review_div .review_list_table {
+  border-collapse: collapse;
+  line-height: 13px;
+  font-size: 14px;
+  margin: 0px 10px 20px 10px;
+  
+}
+#about_detail_review_div .review_list_table tr {
+  border-bottom: 1px solid #ddd;
+ }
+ #about_detail_review_div .review_list_table .none_review_tr {
+  border: 0px;
+ }
+ #about_detail_review_div .review_list_table .none_review {
+  height: 60px;
+  padding: 40px;
+  margin: auto;
+ }
+#about_detail_review_div .review_list_table .image {
+  width: 60px;
+  vertical-align: top;
+}
+#about_detail_review_div .review_list_table .image img {
+  width: 50px;
+  max-height: 50px;
+}
+#about_detail_review_div .review_list_table .star {
+  font-size: 15px;
+}
+#about_detail_review_div .review_list_table .review {
+  width: 390px;
+  padding-right: 5px;
+  line-height: 18px;
+  display: inline-block;
+}
+#about_detail_review_div .review_list_table .about_review a {
+  text-decoration: none;
+}
+#about_detail_review_div .review_list_table .at {
+  font-size: 10px;
+  text-decoration: itaric;
+  color: #555;
+  line-height: 11px;
+  display: inline-block;
+}
+#about_detail_review_div .review_list_table .user_name {
+  vertical-align: top;
+  line-height: 14px;
+  display:inline-block;
+  float: right;
+  font-size: 13px;
+}

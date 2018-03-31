@@ -1,0 +1,388 @@
+@CHARSET "UTF-8";
+
+.content {
+  padding: 0px;
+}
+
+/* アーティスト検索リンク */
+#music_write_to_search_page{
+  margin: 10px 0px;
+  font-size: 12px;
+}
+
+/* アーティストレビューセクション */
+#music_write_artist_review_section{
+  float: left;
+  min-height: 450px;
+  width: 500px;
+  margin-top: 10px;
+  margin-bottom: 120px;
+}
+#music_write_artist_review_image{
+  text-align: left;
+  margin-top: 10px;
+  margin-left: 25px;
+  min-height: 150px;
+  width: 300px;
+}
+#music_write_artist_review_image img {
+  max-height: 260px;
+}
+
+/* アーティストセレクトアルバムセクション */
+#music_write_album_art_section{
+  width: 395px;
+  float: left;
+  text-align: left;
+  background: #fff;
+  padding-bottom: 30px;
+  margin-top: 10px;
+  margin-left: 45px;
+  min-height: 670px;
+}
+#music_write_album_art_section .loading {
+  display: none;
+  margin-top: 100px;
+  text-align: center;
+}
+
+#music_write_album_art_section .art_small {
+  width: 65px;
+  height: 65px;
+  cursor: pointer;
+}
+#music_write_album_append_area{
+  display: none;
+  text-align: left;
+}
+#music_write_more_album_area {
+
+}
+#music_write_more_album_area .loading {
+  display: none;
+  margin-top: 20px;
+  text-align: center;
+}
+#music_write_more_album_link {
+  display: none;
+  text-decoration: underline;
+  cursor: pointer;
+}
+#music_write_album_append_hidden_area {
+  display: none;
+}
+#music_write_hover_album_art{
+  display: none;
+  position: absolute;
+}
+#music_write_hover_album_art img{
+  border: 5px solid red;
+  width: 260px;
+}
+#music_write_hover_album_name{
+  width: 270px;
+  display: none;
+  position: absolute;
+  line-height: 30px;
+  background: red;
+  color: #fff;
+  text-align: center;
+}
+#music_write_album_list_none{
+  margin: 100px 0px 0px 0px;
+  display: inline-block;
+  text-align: center;
+
+}
+
+/* アルバムレビューセクション */
+#music_write_album_review_section{
+  clear: both;
+  margin-bottom: 100px;
+}
+#music_write_review_album_search_result{
+  margin-bottom: 10px;
+}
+#music_write_album_title{
+  margin-bottom: 10px;
+  margin-left: 25px;
+  font-size: 18px;
+}
+#music_write_album_selected_image{
+  min-height: 252px;
+  width: 252px;
+  margin-bottom: 5px;  float: left;
+  border: 0px;
+  text-align: center;
+}
+#music_write_album_selected_image img{
+  max-height: 252px;
+  max-width: 252px;
+  min-width: 230px;
+}
+
+#music_write_album_selected_tracks_area{
+  padding-left: 10px;
+  width: 700px;
+  float: left;
+}
+#music_write_album_selected_tracks_area .loading {
+  margin-left: 30px;
+  margin-top: 20px;
+}
+#music_write_album_selected_tracks .track_span {
+  line-height: 26px;
+}
+
+#music_write_album_star_area{
+  clear: both;
+}
+.preview_button {
+  border: 1px solid #999;
+  color: #1B4881;
+  display: inline-block;
+  font-size: 11px;
+  line-height: 14px;
+  margin: -3px 0 0 12px;
+  padding: 2px 4px 0px 3px;
+  vertical-align: middle;
+  cursor: pointer;
+  text-shadow: 1px 1px 1px #ccc;
+  text-align: 18px;
+  text-align: center;
+  background-image: -moz-linear-gradient(center top , #fff, #D5CEB7);
+}
+.preview_button_pause {
+  color: #DF1346;
+  padding: 2px 4px 0px 3px;
+}
+.preview_button:hover {
+  background: #fff;
+}
+
+/* トラックレビューセクション */
+#music_write_track_review_section{
+  margin-bottom: 50px;
+  clear: both;
+}
+#music_write_review_track_search_result{
+      margin-bottom: 20px;
+}
+#music_write_track_selected_div{
+  padding-left: 10px;
+  float: left;
+}
+#music_write_track_selected_image{
+  min-height: 252px;
+  min-width: 252px;
+  margin-bottom: 5px;
+  float: left;
+  border: 0px;
+  text-align: center;
+}
+#music_write_track_selected_image img{
+  max-height: 252px;
+  max-width: 252px;
+  min-width: 230px;
+}
+#music_write_track_selected_content_area{
+  padding-left: 10px;
+  float: left;
+  width: 700px;
+}
+#music_write_track_selected_content_area .loading{
+  margin-left: 30px;
+  margin-top: 20px;
+}
+#music_write_track_selected_content_area .music_write_track_info{
+  display:inline-block;
+  width: 120px;
+}
+#music_write_track_content_disp{
+  color: #555;
+}
+#music_write_track_star_area{
+  clear: both;
+}
+.main_div {
+  margin: auto;
+  padding: 0px 10px;
+  width: 1000px;
+}
+.loading{
+  display: none;
+  color: #777;
+}
+.clearboth{
+  clear: both;
+  border: 0px;
+  padding: 0px;
+  margin: 0px;
+}
+.search_button {
+    line-height: 23px;
+    margin-left: 0px;
+    vertical-align: middle;
+    width: 70px;
+    cursor: pointer;
+    font-size: 12px;
+}
+.music_write_review_title{
+  clear: both;
+  padding: 4px 0px 2px 5px;
+  color: #000;
+  width: 500px;
+  font-size: 18px;
+  border-bottom: 1px solid #777;
+}
+.music_write_review_name{
+  padding: 2px 0px 0px 5px;
+  font-size:30px;
+}
+.music_write_review_name_input{
+  margin: 0px;
+}
+.album_search_result{
+  cursor: pointer;
+  padding: 1px 10px;
+  border-bottom: 1px solid #fff;
+  background: #999;
+  color: #fff;
+  max-width: 383px;
+}
+.album_search_result img{
+  height:25px;
+  margin-right: 5px;
+  vertical-align: bottom;
+  padding: 3px 0px;
+}
+.album_search_result:hover{
+  background: #555;
+}
+.track_search_result{
+  cursor: pointer;
+  padding: 1px 10px;
+  border-bottom: 1px solid #fff;
+  background: #999;
+  color: #fff;
+  max-width: 383px;
+}
+.track_search_result img{
+  height:25px;
+  margin-right: 5px;
+  vertical-align: bottom;
+  padding: 3px 0px;
+}
+.track_search_result:hover{
+  background: #555;
+}
+.clear_text{
+  display:inline-block;
+  cursor:pointer;
+  border:1px solid #bbb;
+  vertical-align: middle;
+  height: 25px;
+  width: 50px;
+  text-align: center;
+  color: #fff;
+  background: #bbb;
+}
+.to_top{
+  display: inline-block;
+  cursor:pointer;
+  width: 30px;
+  text-align: center;
+  font-size: 25px;
+  cursor: pointer;
+  color: #555;;
+  font-weight: bold;
+  height: 40px;
+  position: relative;
+  top: 6px;
+  left: 5px;
+}
+.track_name{
+  text-decoration: underline;
+  cursor: pointer;
+  display: inline-block;
+  line-height: 1.3em;
+}
+.track_name:hover{
+  color: green;
+}
+.title_area{
+  border: 1px solid #bbb;
+  height: 25px;
+  padding: 0 10px;
+  vertical-align: middle;
+  width: 330px;
+}
+.star_review_area{
+  clear: both;
+  padding: 10px 0px 0px 0px;
+}
+.review_title{
+  display: inline-block;
+  text-align: left;
+  width: 242px;
+  margin-left: 28px;
+  margin-right: 10px;
+  padding-left: 5px;
+  padding-bottom: 3px;
+  border-bottom: 1px solid #ccc;
+  color: #333;
+  font-size: 14px;
+}
+.review_value{
+  text-align: center;
+  width: 110px;
+  display: inline-block;
+}
+.review_value select{
+}
+.updown_mark{
+  color: #333;
+  margin-top: 5px;
+  position: relative;
+  top: 5px;
+  font-size: 12px;
+}
+.comment_review_control{
+  cursor: pointer;
+  margin: 10px 0px 5px 0px;
+}
+.comment_review_textarea_wrap{
+  text-align: right;
+  width: 505px;
+}
+.comment_review_textarea{
+  width: 452px;
+  height: 150px;
+  font-size: 13px;
+  padding: 10px;
+  clear_both;
+  letter-spacing: 0px;
+  background: #FFF;
+  color: #999;
+  border: 3px solid #ddd;
+}
+.music_write_updated_at{
+  width: 500px;
+  color: #555;
+  text-align: right;
+  font-size: 12px;
+}
+.submit_area{
+  width: 470px;
+  margin-top: 10px;
+  margin-left: 30px;
+}
+.music_write_submit{
+  float: right;
+}
+.hidden_form{
+  width: 250px;
+}
+.preview_itunes_track {
+  width: 400px;
+}

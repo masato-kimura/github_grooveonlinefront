@@ -1,0 +1,122 @@
+@CHARSET "UTF-8";
+.ui-controlgroup-controls {
+  width: 100%;
+}
+.main_div {
+  min-height: 1200px;
+}
+.introduction {
+  padding: 10px 0px 0px 0px;
+  font-size: 28px;
+  text-shadow: 1px 2px 5px #aaa;
+  text-align: center;
+}
+.span_required {
+  color: purple;
+}
+.user_table {
+  margin: auto;
+}
+.user_table .open_option {
+  text-align: center;
+  cursor: pointer;
+  text-decoration: underline;
+  padding-bottom: 0px;
+  color: #555;
+  font-size: 12px;
+}
+.user_table th {
+    text-align: left;
+    height: 45px;
+    vertical-align: top;
+}
+.user_table th .sub {
+    font-weight: normal;
+    font-size: 12px;
+    padding: 0px 0px 0px 35px;
+}
+.user_table .title td {
+    padding: 10px 0px 0px 0px;
+    color: purple;
+}
+.user_table .title td .main {
+    padding: 10px 0px 0px 20px;
+    color: #234356;
+    font-weight: bold;
+}
+.user_table .title td .sub {
+    font-size:12px;
+    padding: 0px 0px 0px 35px;
+    color: #382225;
+}
+.user_table .title td .error {
+    padding: 0px 0px 0px 40px;
+    color: red;
+    font-weight: bold;
+}
+.user_table .ans td {
+    padding: 0px 0px 7px 35px;
+}
+.user_table .ans td input, select {
+    font-size:14px;
+}
+.user_table .ans td input[type=text],
+.user_table .ans td input[type=email],
+.user_table .ans td input[type=password] {
+    border: 1px solid #999;
+    width:350px;
+    height: 30px;
+    padding: 0px 10px;
+    vertical-align: middle;
+    font-size: 14px;
+}
+.global_facebook,
+.global_twitter,
+.global_yahoo,
+.global_google,
+.global_grooveonline {
+  width: 370px;
+  cursor: default;
+}
+
+.user_table .open_option {
+    padding-top: 10px;
+}
+.user_table .ans label {
+    font-size: 12px;
+    margin-left: 5px;
+}
+.user_table .ans input[type=file] {
+    font-size: 12px;
+}
+.user_table .ans img {
+    border: 1px solid #777;
+    box-shadow: 1px 1px 1px #aaa;
+    width: 160px;
+}
+.user_table td {
+    word-break: break-all;
+    padding-right: 30px;
+}
+.user_table .autologin td {
+    font-size: 12px;
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-bottom: 10px;
+}
+.user_table .submit td {
+  padding-bottom: 30px;
+}
+.global_submit_btn,
+.global_submit_btn:hover {
+  margin-left: 35px;
+  width: 410px;
+}
+
+.error {
+    color:red;
+}
+textarea {
+    width:400px;
+    padding: 5px;
+}
